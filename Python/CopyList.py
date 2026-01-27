@@ -24,3 +24,8 @@ num = [10, 20, 30, 40,  60]
 copy = list(num)
 
 print(copy)
+
+# another way to copy a list
+alphabet = ['a', 'b', 'c', 'd']
+copy_alphabet = alphabet.copy()
+print("After Copy: ", copy_alphabet)
