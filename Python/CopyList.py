@@ -16,3 +16,11 @@ copied_list.append(6)
 print("After change:")
 print("Original:", original_list)
 print("Copy:", copied_list)
+
+
+
+#Another example
+num = [10, 20, 30, 40,  60]
+copy = list(num)
+
+print(copy)
