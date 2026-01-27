@@ -28,4 +28,5 @@ print(copy)
 # another way to copy a list
 alphabet = ['a', 'b', 'c', 'd']
 copy_alphabet = alphabet.copy()
+print("Before Copy: ", alphabet)
 print("After Copy: ", copy_alphabet)
