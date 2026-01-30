@@ -26,3 +26,21 @@ print(type(mixedTuple))
 #Range of Indexes
 rangedTuple = ("a", "b", "c", "d", "e", "f", "g")
 print(rangedTuple[2:5])
+
+
+#Access Tuple Items
+thistuple = ("apple", "banana", "cherry", "mango")
+print(thistuple[1])  
+print(thistuple[-1])
+print(thistuple[0:2])
+print(thistuple[-3:-1])
+print(thistuple[:2])
+
+#Update Tuples 
+thistuple = ("apple", "banana", "cherry", "mango", "kiwi", "pineapple")
+a = list(thistuple)
+print(a)
+
+a.append("watermelon")
+thistuple = tuple(a)
+print(thistuple)
