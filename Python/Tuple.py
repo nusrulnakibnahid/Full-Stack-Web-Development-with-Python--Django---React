@@ -44,3 +44,21 @@ print(a)
 a.append("watermelon")
 thistuple = tuple(a)
 print(thistuple)
+
+
+#Unpack Tuple 
+fruits = ("apple", "banana", "cherry")
+(a, b, c) = fruits
+print(a)
+print(c)
+
+
+#Unpack Tuple (Using Asterisk*)
+fruits = ("apple", "banana", "cherry", "strawberry", "raspberry", "blueberry", "blackberry")
+
+(*green, yellow, red) = fruits
+
+
+print(green)
+print(yellow)
+print(red)
