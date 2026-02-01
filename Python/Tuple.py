@@ -83,3 +83,41 @@ i = 0
 while i < len(thistuple):
     print(thistuple[i])
     i = i+1
+
+
+
+#Join Tuples
+
+#join two tuples
+tuple1 = ('a', 'b', 'c')
+tuple2 = (1,2,3)
+
+tuple3 = tuple1+tuple2
+print(tuple3)
+
+
+#Multiply Tuples
+fruits = ('apple', 'banana', 'cherry')
+mytuple = fruits * 2
+print (mytuple)
+
+# example 2 for #Multiply Tuples
+nums = (1, 2, 3)
+mytuple = nums * 3
+print(mytuple)
+
+# Delete Tuple
+thistuple = ("apple", "banana", "cherry")
+del thistuple
+
+
+#Tuple count() Method
+thistuple = (1, 2, 2, 2, 2, 4, 5)
+a = thistuple.count(2)
+print(a)
+
+
+#Tuple index() Method
+thistuple = (1, 2, 3, 4, 5, 2)
+b = thistuple.index(3)
+print(b)
