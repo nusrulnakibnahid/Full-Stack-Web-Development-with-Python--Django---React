@@ -59,3 +59,10 @@ print(fruits)  # removes and returns an arbitrary item
 colors = {'red', 'green', 'blue'}
 colors.clear()
 print(colors)  # Output: set()
+
+
+
+# Loop Sets
+Set = {'a', 'b', 'c'}
+for i in Set:
+    print(i)
