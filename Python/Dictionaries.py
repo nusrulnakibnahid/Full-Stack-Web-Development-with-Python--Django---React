@@ -42,3 +42,10 @@ print(StudentInfo.keys()) # to get all the keys in the dictionary
 
 print(StudentInfo.values()) # to get all the values in the dictionary
 
+print(StudentInfo.items()) # to get all the key-value pairs in the dictionary
+
+
+
+#Check if Key Exists
+if "NewStudent3" in StudentInfo:
+    print("Yes, 'NewStudent' is a key in the StudentInfo dictionary.")
