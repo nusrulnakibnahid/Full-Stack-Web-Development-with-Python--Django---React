@@ -49,3 +49,32 @@ print(StudentInfo.items()) # to get all the key-value pairs in the dictionary
 #Check if Key Exists
 if "NewStudent3" in StudentInfo:
     print("Yes, 'NewStudent' is a key in the StudentInfo dictionary.")
+
+
+
+
+
+
+#Change Dictionary Items
+thisdict =	{
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+
+thisdict["year"] = 2018
+
+print(thisdict)
+
+
+# using update() method to change value
+
+thisdict2 =	{
+  "brand": "BMW",
+  "model": "MM",
+  "year": 1964
+}
+print(thisdict2)
+thisdict2.update({"year": 2025})
+print(thisdict2)
+print(thisdict2["year"])
