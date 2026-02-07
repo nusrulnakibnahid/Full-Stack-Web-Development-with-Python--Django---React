@@ -78,3 +78,63 @@ print(thisdict2)
 thisdict2.update({"year": 2025})
 print(thisdict2)
 print(thisdict2["year"])
+
+
+
+#Add Items
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+
+thisdict["color"] = "blue"
+print(thisdict)
+
+
+
+#Remove Items
+
+Newdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+Newdict.pop("brand") # using pop() method to remove an item
+print(Newdict)
+
+# using popitem() method to remove the last inserted item
+exampledict = {
+    "brand": "BMW",
+    "model" : "MM",
+    "Year" : 2022
+    
+}
+exampledict.popitem()
+print(exampledict)
+
+
+
+#using del keyword to remove an item
+exampledict2  = {
+    'name' : 'nahid',
+    'id' : 1054,
+    'faculty' : 'SWE'
+}
+
+del exampledict2['faculty']
+print(exampledict2)
+
+del exampledict2 # using del keyword to delete the entire dictionary
+# print(exampledict2) # this will raise an error because the dictionary has been deleted
+
+
+#using clear() method to empty the dictionary
+exampledict3 = {
+    'name' : 'nakib',
+    'id' : 978,
+    'faculty' : 'SWE'
+}
+
+exampledict3.clear()
+print(exampledict3) # this will print an empty dictionary
