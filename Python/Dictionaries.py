@@ -138,3 +138,44 @@ exampledict3 = {
 
 exampledict3.clear()
 print(exampledict3) # this will print an empty dictionary
+
+
+
+
+
+
+# Loops in Dictionary
+Student = {
+    "name": "N",
+    "Id" : 978,
+    "faculty" : "SWE"
+}
+
+for i in Student:
+    print(i)
+
+
+# to print values in a dictionary
+for i in Student.values():
+    print(i)
+
+
+# to print key-value pairs in a dictionary
+for a in Student.keys():
+    print(a)
+
+
+
+
+
+# items method to loop through key-value pairs
+CarBrand = {
+    "num1" : "BMW",
+    "num2" : "Audi",
+    "num3" :"Ford",
+    "num4" : "Toyota"
+    
+}
+
+for x,y in CarBrand.items():
+    print(x,y)
