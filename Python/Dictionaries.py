@@ -179,3 +179,23 @@ CarBrand = {
 
 for x,y in CarBrand.items():
     print(x,y)
+
+
+
+
+
+
+
+
+#Copy Dictionaries
+OriginalDict = {
+    "name" : "nahid",
+    "Age" : 24,
+    "City" : "Dhaka",
+}
+
+ExDict = OriginalDict.copy() # using copy() method to copy a dictionary
+print(ExDict)
+
+ExDict2 = dict(OriginalDict) # using dict() constructor to copy a dictionary
+print(ExDict2)
