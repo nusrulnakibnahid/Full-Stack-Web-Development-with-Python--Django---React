@@ -1,0 +1,5 @@
+# sum 2 number using lambda function
+
+a = lambda x, y : x + y
+
+print(a(10,20))
