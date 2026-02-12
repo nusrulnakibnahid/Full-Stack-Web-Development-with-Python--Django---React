@@ -79,4 +79,32 @@ print(S.car)
 
 
 
+
+
+
+# Hybrid Inheritance
+class Animal:
+    def eat(self):
+        print("Animal is eating")
+
+class Dog(Animal):
+    def bark(self):
+        print("Dog is barking")
+
+class Cat(Animal):
+    def meow(self):
+        print("Cat is meowing")
+
+d = Dog()
+c = Cat()
+
+d.eat()
+d.bark()
+
+c.eat()
+c.meow()
+
+
+
+
     
