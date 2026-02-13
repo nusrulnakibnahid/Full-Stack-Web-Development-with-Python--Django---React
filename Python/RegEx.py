@@ -28,3 +28,14 @@ if c:
 
 else:
     print("No")
+
+
+
+# Special Sequences (Another Example)
+#\A
+d = re.findall("\ANahid", text)
+if d:
+    print("yes,true")
+
+else:
+    print("No,not true")
