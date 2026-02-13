@@ -1,5 +1,5 @@
 import re
-text = "Nahid Is a Software Engineer. "
+text = "Nahid Is a Software Engineer"
 
 
 #Find all lower case characters alphabetically between "a" and "m"
@@ -16,3 +16,15 @@ if b:
 
 else:
     print("No, The string does not start with 'Nahid'")
+
+
+
+
+# Check if the string ends with 'Engineer'
+c = re.findall('Engineer$', text)
+
+if c:
+    print("yes,true")
+
+else:
+    print("No")
