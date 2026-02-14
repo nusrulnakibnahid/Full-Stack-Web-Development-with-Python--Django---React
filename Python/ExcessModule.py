@@ -9,6 +9,9 @@ import Module as Mod
 Mod.name()
 
 
+# use from keyword to import specific function from the module.
+from Module import nahid
+Module.nahid()
 
 import Module
 x = Module.person1
