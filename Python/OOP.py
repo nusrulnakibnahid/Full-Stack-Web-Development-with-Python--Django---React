@@ -41,3 +41,49 @@ M1.InstanceMethod()
 M1.ClassMethod()
 Method.StaticMethod()
 
+
+
+# Abstraction 
+from abc import ABC, abstractmethod
+
+class Animal(ABC):
+    @abstractmethod
+    def sound(self):
+        pass
+
+class Dog(Animal):
+    def sound(self):
+        print("Bark")
+
+class Cat(Animal):
+    def sound(self):
+        print("Meow")
+
+# a = Animal()  # TypeError: Can't instantiate abstract class
+d = Dog()
+d.sound()
+c = Cat()
+c.sound()
+
+
+# Polymorphism
+class Vahicle:
+    def __init__(self,Model,Brand,component):
+        self.Model = Model
+        self.Brand = Brand
+        self.component = component
+
+class plane(Vahicle):
+    pass
+
+
+p1 = plane("Boeing 747", "Boeing", "Engine")
+print(p1.Model)
+print(p1.Brand)
+
+
+class Car(Vahicle):
+    pass
+
+c1 = Car("Model S", "Tesla", "Battery")
+print(c1.Brand)
