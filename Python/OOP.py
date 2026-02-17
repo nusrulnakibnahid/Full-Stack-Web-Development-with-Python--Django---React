@@ -17,3 +17,27 @@ class StudentInfo:
 
         s1 = StudentInfo("Nahid","1054")
 
+
+
+
+# New Example 
+# Instance methods
+class Method:
+    def InstanceMethod(self):
+        print("This is an instance method")
+
+# Class methods
+    @classmethod
+    def ClassMethod(cls):
+        print("This is a class method")
+
+# Static methods
+    @staticmethod
+    def StaticMethod():
+        print("This is a static method")
+
+M1 = Method()
+M1.InstanceMethod()
+M1.ClassMethod()
+M1.StaticMethod()
+
