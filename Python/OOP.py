@@ -39,5 +39,5 @@ class Method:
 M1 = Method()
 M1.InstanceMethod()
 M1.ClassMethod()
-M1.StaticMethod()
+Method.StaticMethod()
 
