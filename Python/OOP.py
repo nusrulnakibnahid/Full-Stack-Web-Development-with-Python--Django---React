@@ -69,7 +69,7 @@ c.sound()
 # Polymorphism
 class Vahicle:
     def __init__(self,Model,Brand,component):
-        self.Model = Model
+        self.Model = Model # instance variable # public
         self.Brand = Brand
         self.component = component
 
@@ -87,3 +87,17 @@ class Car(Vahicle):
 
 c1 = Car("Model S", "Tesla", "Battery")
 print(c1.Brand)
+
+
+
+
+# Encapsulation
+class Parent:
+    def __init__(self,Name, FatherName):
+        self.__Name = Name
+        self.FatherName = FatherName
+
+d1 = Parent("Nahid", "Nurul")
+print(d1.__Name) # This will raise an AttributeError
+        
+ 
