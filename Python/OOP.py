@@ -21,6 +21,8 @@ class StudentInfo:
 
 
 # New Example 
+
+
 # Instance methods
 class Method:
     def InstanceMethod(self):
